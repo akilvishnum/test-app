@@ -31,7 +31,7 @@ export const ResponseContainer = () => {
                     <RespondComment />
                 </Box>
             </Box>
-            <Box sx = {{position: 'fixed', width: '65%', bottom: 0, display: 'flex', padding: '0.77rem 0.5rem', boxSizing: 'border-box', borderTop: '1px solid #c2c2c2de', background: '#dddddd', borderRadius: '0 0 20px 20px'}}>
+            <Box sx = {{position: 'sticky', width: '100%', bottom: 0, display: 'flex', zIndex: 100,  padding: '0.77rem 0.5rem', boxSizing: 'border-box', borderTop: '1px solid #c2c2c2de', background: '#dddddd', borderRadius: '0 0 20px 20px'}}>
                 <Grid container sx = {{display: 'flex', alignItems: 'flex-end'}} spacing = {1}>
                     <Grid item xs = {1} sx = {{display: 'flex', justifyContent: 'flex-end'}}>
                         <CircleIcon 
