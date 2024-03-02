@@ -25,7 +25,7 @@ export const ResponseContainer = () => {
 
     return (
         <Box sx = {{width: '60%', background: 'transparent', borderRadius: '20px'}}>
-            <Box sx = {{position: 'sticky', top: 0, background: 'white', width: '100%', borderRadius: '20px 20px 0px 0px', border: '1px solid #c2c2c2de'}}>
+            <Box sx = {{position: 'sticky', top: 0, background: 'white', width: '100%', boxSizing: 'border-box', borderRadius: '20px 20px 0px 0px', border: '1px solid #c2c2c2de'}}>
                     <ResponseContainerHeader orderId={123} productName = {'GitHub'} />
             </Box>
             <Box sx = {{width: '100%', background: '#f3f3f3', height: '70vh', overflow: 'scroll', boxSizing: 'border-box', borderLeft: '1px solid #c2c2c2de', borderRight: '1px solid #c2c2c2de'}}>
