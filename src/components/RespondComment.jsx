@@ -8,7 +8,7 @@ export const RespondComment = ({comment}) => {
             <p style = {{margin: 0, fontWeight: 600}}>
                 You | 12:06AM
             </p>
-                <Box sx = {{borderRadius: '20px', background: 'blue', padding: '1rem', color: 'white'}}>
+                <Box sx = {{borderRadius: '20px', background: '#b60000', padding: '1rem', color: 'white'}}>
                     <p style = {{margin: 0}}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum sit amet justo donec enim diam vulputate ut pharetra. Sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque eu. Urna neque viverra justo nec ultrices. Justo laoreet sit amet cursus sit amet dictum sit.
                     </p>

@@ -8,7 +8,7 @@ import { Box } from '@mui/material';
 
 const App = () => {
   return( 
-    <Box sx = {{padding: '2rem 0rem', width: '100%', display: 'flex', justifyContent: 'center'}}>
+    <Box sx = {{padding: '2rem 0rem', width: '100%', height: '100%', display: 'flex', justifyContent: 'center'}}>
     <ResponseContainer />
     </Box>
     

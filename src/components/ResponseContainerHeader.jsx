@@ -6,7 +6,7 @@ import AutoAwesomeTwoToneIcon from '@mui/icons-material/AutoAwesomeTwoTone';
 export const ResponseContainerHeader = ({orderId, productName}) => {
     return (
         <Box sx = {{display: 'flex', flexDirection: 'row', gap: '1rem', borderBottom: '1px solid #c2c2c2de', padding: '0.77rem 0.5rem'}}>
-            <CircleIcon icon={<AutoAwesomeTwoToneIcon />} customStyles = {{background: 'black', color: 'white'}}/>
+            <CircleIcon icon={<AutoAwesomeTwoToneIcon />} customStyles = {{ color: 'white'}}/>
             <Box sx = {{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
                 <p style = {{fontWeight: 600, margin: 0}}>{orderId}</p>
                 <p style = {{margin: 0}}>{productName}</p>

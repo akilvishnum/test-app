@@ -3,7 +3,7 @@ import React from 'react';
 
 export const CircleIcon = ({icon, customStyles}) => {
     return (
-        <Box sx = {{width: '3rem', borderRadius: '50%', aspectRatio: '1', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', ...customStyles}}>
+        <Box sx = {{width: '3rem', borderRadius: '50%', aspectRatio: '1', display: 'flex', justifyContent: 'center', alignItems: 'center', cursor: 'pointer', background: '#b60000', ...customStyles}}>
             {icon}
         </Box>
     )
